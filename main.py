@@ -1,15 +1,10 @@
 ##### config and argparse
 import argparse
 import configparser
-#### parser
-from parser import Parser
-#### rich module
+from parse_data import Parser
 from rich.console import Console
-#### utils
 from utils import Utils
-#### embedding
 from embedding import Embedding
-#### searcher
 from searcher import Searcher
 
 #### streamlit
